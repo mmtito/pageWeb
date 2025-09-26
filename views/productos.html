@@ -3,13 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Productos</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     />
   </head>
   <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid d-flex justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img
+            src="../src/img/vector-illustration-one-oclock-digital-600nw-2258447043.webp"
+            alt="Logo"
+            width="55"
+            height="34"
+            class="d-inline-block align-text-top"
+          />
+          Rel<span style="color: blue">👁️jit👁️s</span>
+        </a>
+      </div>
+    </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <button
@@ -26,362 +40,339 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="../">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="views/productos.html">Productos</a>
+              <a class="nav-link" href="../views/productos.html">Productos</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+              <a class="nav-link" href="../views/promociones.html"
+                >Promociones</a
               >
-                Promociones
-              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Sucursales</a>
+              <a class="nav-link" href="../views/sucursales.html">Sucursales</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="d-flex justify-content-evenly">
-      <h2>Productos</h2>
+    <div class="d-flex justify-content-center">
+      <h2><span style="color: indigo;">P</span>roductos</h2>
     </div>
-    <div class="d-flex justify-content-evenly">
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
+<br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Producto 1 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-2">
+            <div class="col-md-4">
+              <img
+                src="../src/img/24.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Casio"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Casio</h5>
+                <p class="card-text">
+                  Código: 001 <br />
+                  Cantidad: 20 <br />
+                  Precio: $1740 <br />
+                  IVA: $240 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
+
+      <!-- Producto 2 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../src/img/25.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Seiko"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Seiko</h5>
+                <p class="card-text">
+                  Código: 002 <br />
+                  Cantidad: 15 <br />
+                  Precio: $2200 <br />
+                  IVA: $290 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 8 mins ago</small
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
+
+      <!-- Producto 3 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../src/img/26.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Citizen"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Citizen</h5>
+                <p class="card-text">
+                  Código: 003 <br />
+                  Cantidad: 10 <br />
+                  Precio: $1980 <br />
+                  IVA: $260 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 12 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
+        </div>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../src/img/27.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Fossil"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Fossil</h5>
+                <p class="card-text">
+                  Código: 004 <br />
+                  Cantidad: 12 <br />
+                  Precio: $2500 <br />
+                  IVA: $325 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 15 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 5 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../src/img/28.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Omega"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Omega</h5>
+                <p class="card-text">
+                  Código: 005 <br />
+                  Cantidad: 8 <br />
+                  Precio: $7200 <br />
+                  IVA: $940 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 20 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 6 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../src/img/29.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Tissot"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Tissot</h5>
+                <p class="card-text">
+                  Código: 006 <br />
+                  Cantidad: 18 <br />
+                  Precio: $3100 <br />
+                  IVA: $410 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 22 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 7 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../src/img/30.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Rolex"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Rolex</h5>
+                <p class="card-text">
+                  Código: 007 <br />
+                  Cantidad: 5 <br />
+                  Precio: $15400 <br />
+                  IVA: $2000 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 30 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 8 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../src/img/31.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Tag Heuer"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Tag Heuer</h5>
+                <p class="card-text">
+                  Código: 008 <br />
+                  Cantidad: 7 <br />
+                  Precio: $8900 <br />
+                  IVA: $1160 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 35 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 9 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../src/img/32.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Hamilton"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Hamilton</h5>
+                <p class="card-text">
+                  Código: 009 <br />
+                  Cantidad: 14 <br />
+                  Precio: $4500 <br />
+                  IVA: $590 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 40 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 10 -->
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../src/img/33.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Reloj Longines"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Longines</h5>
+                <p class="card-text">
+                  Código: 010 <br />
+                  Cantidad: 9 <br />
+                  Precio: $5600 <br />
+                  IVA: $740 <br />
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 50 mins ago</small
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="d-flex justify-content-evenly">
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="d-flex justify-content-evenly">
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div><div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div><div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="d-flex justify-content-evenly">
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div><div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div><div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../src/img/9.jpeg"
-              class="img-fluid rounded-circle"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Reloj Casio <br /></h5>
-              <p class="card-text">
-                Codigo: 001 <br />
-                cantidad: 20 <br />
-                precio : $1740 <br />
-                IVA: $240 <br />
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
